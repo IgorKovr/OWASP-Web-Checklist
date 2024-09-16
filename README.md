@@ -18,31 +18,30 @@
 * [Risky Functionality - Card Payment](#Card)
 * [HTML 5](#HTML)
 
--------
 ### <a name="Information">Information Gathering</a>
-- [ ] Manually explore the site
+- [x] Manually explore the site
 - [ ] Spider/crawl for missed or hidden content
-- [ ] Check for files that expose content, such as robots.txt, sitemap.xml, .DS_Store
+- [x] Check for files that expose content, such as robots.txt, sitemap.xml, .DS_Store
 - [ ] Check the caches of major search engines for publicly accessible sites
 - [ ] Check for differences in content based on User Agent (eg, Mobile sites, access as a Search engine Crawler)
-- [ ] Perform Web Application Fingerprinting
-- [ ] Identify technologies used
-- [ ] Identify user roles
-- [ ] Identify application entry points
-- [ ] Identify client-side code
+- [x] Perform Web Application Fingerprinting
+- [x] Identify technologies used
+- [x] Identify user roles
+- [x] Identify application entry points
+- [x] Identify client-side code
 - [ ] Identify multiple versions/channels (e.g. web, mobile web, mobile app, web services)
 - [ ] Identify co-hosted and related applications
-- [ ] Identify all hostnames and ports
+- [x] Identify all hostnames and ports
 - [ ] Identify third-party hosted content
 
 
 ### <a name="Configuration">Configuration Management</a>
 
-- [ ] Check for commonly used application and administrative URLs
+- [x] Check for commonly used application and administrative URLs
 - [ ] Check for old, backup and unreferenced files
-- [ ] Check HTTP methods supported and Cross Site Tracing (XST)
-- [ ] Test file extensions handling
-- [ ] Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)
+- [x] Check HTTP methods supported and Cross Site Tracing (XST)
+- [x] Test file extensions handling
+- [x] Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)
 - [ ] Test for policies (e.g. Flash, Silverlight, robots)
 - [ ] Test for non-production data in live environment, and vice-versa
 - [ ] Check for sensitive data in client-side code (e.g. API keys, credentials)
@@ -50,58 +49,58 @@
 
 ### <a name="Transmission">Secure Transmission</a>
 
-- [ ] Check SSL Version, Algorithms, Key length
-- [ ] Check for Digital Certificate Validity (Duration, Signature and CN)
-- [ ] Check credentials only delivered over HTTPS
-- [ ] Check that the login form is delivered over HTTPS
-- [ ] Check session tokens only delivered over HTTPS
-- [ ] Check if HTTP Strict Transport Security (HSTS) in use
+- [x] Check SSL Version, Algorithms, Key length
+- [x] Check for Digital Certificate Validity (Duration, Signature and CN)
+- [x] Check credentials only delivered over HTTPS
+- [x] Check that the login form is delivered over HTTPS
+- [x] Check session tokens only delivered over HTTPS
+- [x] Check if HTTP Strict Transport Security (HSTS) in use
 
 
 
 ### <a name="Authentication">Authentication</a>
 - [ ] Test for user enumeration
-- [ ] Test for authentication bypass
-- [ ] Test for bruteforce protection
-- [ ] Test password quality rules
-- [ ] Test remember me functionality
-- [ ] Test for autocomplete on password forms/input
-- [ ] Test password reset and/or recovery
-- [ ] Test password change process
+- [x] Test for authentication bypass
+- [x] Test for bruteforce protection
+- [x] Test password quality rules
+- [x] Test remember me functionality
+- [x] Test for autocomplete on password forms/input
+- [x] Test password reset and/or recovery
+- [x] Test password change process
 - [ ] Test CAPTCHA
-- [ ] Test multi factor authentication
-- [ ] Test for logout functionality presence
-- [ ] Test for cache management on HTTP (eg Pragma, Expires, Max-age)
-- [ ] Test for default logins
+- [x] Test multi factor authentication
+- [x] Test for logout functionality presence
+- [x] Test for cache management on HTTP (eg Pragma, Expires, Max-age)
+- [x] Test for default logins
 - [ ] Test for user-accessible authentication history
-- [ ] Test for out-of channel notification of account lockouts and successful password changes
+- [x] Test for out-of channel notification of account lockouts and successful password changes
 - [ ] Test for consistent authentication across applications with shared authentication schema / SSO
 
 
 
 ### <a name="Session">Session Management</a>
-- [ ] Establish how session management is handled in the application (eg, tokens in cookies, token in URL)
-- [ ] Check session tokens for cookie flags (httpOnly and secure)
-- [ ] Check session cookie scope (path and domain)
-- [ ] Check session cookie duration (expires and max-age)
-- [ ] Check session termination after a maximum lifetime
-- [ ] Check session termination after relative timeout
-- [ ] Check session termination after logout
-- [ ] Test to see if users can have multiple simultaneous sessions
-- [ ] Test session cookies for randomness
-- [ ] Confirm that new session tokens are issued on login, role change and logout
+- [x] Establish how session management is handled in the application (eg, tokens in cookies, token in URL)
+- [x] Check session tokens for cookie flags (httpOnly and secure)
+- [x] Check session cookie scope (path and domain)
+- [x] Check session cookie duration (expires and max-age)
+- [x] Check session termination after a maximum lifetime
+- [x] Check session termination after relative timeout
+- [x] Check session termination after logout
+- [x] Test to see if users can have multiple simultaneous sessions
+- [x] Test session cookies for randomness
+- [x] Confirm that new session tokens are issued on login, role change and logout
 - [ ] Test for consistent session management across applications with shared session management
 - [ ] Test for session puzzling
-- [ ] Test for CSRF and clickjacking
+- [x] Test for CSRF and clickjacking
 
 
 
 ### <a name="Authorization">Authorization</a>
-- [ ] Test for path traversal
-- [ ] Test for bypassing authorization schema
-- [ ] Test for vertical Access control problems (a.k.a. Privilege Escalation)
-- [ ] Test for horizontal Access control problems (between two users at the same privilege level)
-- [ ] Test for missing authorization
+- [x] Test for path traversal
+- [x] Test for bypassing authorization schema
+- [x] Test for vertical Access control problems (a.k.a. Privilege Escalation)
+- [x] Test for horizontal Access control problems (between two users at the same privilege level)
+- [x] Test for missing authorization
 
 
 ### <a name="Validation">Data Validation</a>
@@ -110,7 +109,7 @@
 - [ ] Test for DOM based Cross Site Scripting
 - [ ] Test for Cross Site Flashing
 - [ ] Test for HTML Injection
-- [ ] Test for SQL Injection
+- [x] Test for SQL Injection
 - [ ] Test for SOQL Injection
 - [ ] Test for LDAP Injection
 - [ ] Test for ORM Injection
@@ -120,7 +119,7 @@
 - [ ] Test for XPath Injection
 - [ ] Test for XQuery Injection
 - [ ] Test for IMAP/SMTP Injection
-- [ ] Test for Code Injection
+- [x] Test for Code Injection
 - [ ] Test for Expression Language Injection
 - [ ] Test for Command Injection
 - [ ] Test for Overflow (Stack, Heap and Integer)
@@ -138,8 +137,9 @@
 - [ ] Test for Mass Assignment
 - [ ] Test for NULL/Invalid Session Cookie
 
+
 ### <a name="Denial">Denial of Service</a>
-- [ ] Test for anti-automation
+- [x] Test for anti-automation
 - [ ] Test for account lockout
 - [ ] Test for HTTP protocol DoS
 - [ ] Test for SQL wildcard DoS
@@ -149,27 +149,27 @@
 - [ ] Test for feature misuse
 - [ ] Test for lack of non-repudiation
 - [ ] Test for trust relationships
-- [ ] Test for integrity of data
-- [ ] Test segregation of duties
+- [x] Test for integrity of data
+- [x] Test segregation of duties
 
 
 ### <a name="Cryptography">Cryptography</a>
-- [ ] Check if data which should be encrypted is not
+- [x] Check if data which should be encrypted is not
 - [ ] Check for wrong algorithms usage depending on context
-- [ ] Check for weak algorithms usage
-- [ ] Check for proper use of salting
-- [ ] Check for randomness functions
+- [x] Check for weak algorithms usage
+- [x] Check for proper use of salting
+- [x] Check for randomness functions
 
 
 ### <a name="File">Risky Functionality - File Uploads</a>
-- [ ] Test that acceptable file types are whitelisted
-- [ ] Test that file size limits, upload frequency and total file counts are defined and are enforced
+- [x] Test that acceptable file types are whitelisted
+- [x] Test that file size limits, upload frequency and total file counts are defined and are enforced
 - [ ] Test that file contents match the defined file type
 - [ ] Test that all file uploads have Anti-Virus scanning in-place.
-- [ ] Test that unsafe filenames are sanitised
-- [ ] Test that uploaded files are not directly accessible within the web root
+- [x] Test that unsafe filenames are sanitised
+- [x] Test that uploaded files are not directly accessible within the web root
 - [ ] Test that uploaded files are not served on the same hostname/port
-- [ ] Test that files and other media are integrated with the authentication and authorisation schemas
+- [x] Test that files and other media are integrated with the authentication and authorisation schemas
 
 
 ### <a name="Card">Risky Functionality - Card Payment</a>
@@ -191,5 +191,6 @@
 - [ ] Test for Web Storage SQL injection
 - [ ] Check CORS implementation
 - [ ] Check Offline Web Application
+
 
 Source: [OWASP](https://www.owasp.org/index.php/Web_Application_Security_Testing_Cheat_Sheet)
